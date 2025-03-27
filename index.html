@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coastal Airbnbs & Travel</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Discover the Best Coastal Airbnbs & Travel Experiences</h1>
+            <p>Book your next vacation with us and explore stunning beachfront properties.</p>
+            <button onclick="window.location.href='#airbnbs'">Explore Airbnbs</button>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section class="achievements">
+        <h2>Our Achievements</h2>
+        <div class="achievements-container">
+            <div class="achievement">
+                <h3>500+ Properties</h3>
+                <p>We have over 500 coastal Airbnbs listed across the world.</p>
+            </div>
+            <div class="achievement">
+                <h3>Top-Rated Services</h3>
+                <p>We have consistently earned 5-star ratings from our guests.</p>
+            </div>
+            <div class="achievement">
+                <h3>Trusted Globally</h3>
+                <p>Our platform is trusted by travelers in over 40 countries.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Places We Charge People to Visit -->
+    <section class="places">
+        <h2>Popular Places We Charge to Visit</h2>
+        <div class="places-container">
+            <div class="place">
+                <img src="images/miami.jpg" alt="Miami Beach">
+                <h3>Miami Beach</h3>
+                <p>Price: $200 per day</p>
+                <p>Enjoy the beautiful sandy beaches and vibrant nightlife of Miami Beach.</p>
+            </div>
+            <div class="place">
+                <img src="images/santamonica.jpg" alt="Santa Monica">
+                <h3>Santa Monica</h3>
+                <p>Price: $150 per day</p>
+                <p>Relax on the iconic beaches of Santa Monica with stunning views of the Pacific Ocean.</p>
+            </div>
+            <div class="place">
+                <img src="images/hawaii.jpg" alt="Hawaii">
+                <h3>Hawaii</h3>
+                <p>Price: $350 per day</p>
+                <p>Discover the islands of Hawaii with incredible beaches and lush landscapes.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Best Places Traveled -->
+    <section class="best-places">
+        <h2>Best Places We've Traveled</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Location</th>
+                    <th>Highlights</th>
+                    <th>Rating</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Maldives</td>
+                    <td>Private overwater bungalows, crystal-clear waters</td>
+                    <td>5/5</td>
+                </tr>
+                <tr>
+                    <td>Bora Bora</td>
+                    <td>Luxury resorts, turquoise lagoons</td>
+                    <td>4.8/5</td>
+                </tr>
+                <tr>
+                    <td>French Riviera</td>
+                    <td>Exclusive beaches, world-class dining</td>
+                    <td>4.9/5</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Airbnb Listings Section -->
+    <section id="airbnbs">
+        <h2>Our Coastal Airbnbs</h2>
+        <div class="form-container">
+            <input type="text" id="name" placeholder="Property Name" />
+            <input type="text" id="location" placeholder="Location (e.g., Miami Beach)" />
+            <input type="number" id="price" placeholder="Price per Night" />
+            <input type="text" id="description" placeholder="Short Description" />
+            <button id="add">Add Airbnb</button>
+        </div>
+
+        <div class="table-container">
+            <h3>Airbnb Listings</h3>
+            <table id="airbnbsTable">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Location</th>
+                        <th>Price per Night</th>
+                        <th>Description</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Data will be populated here -->
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <script src="js/index.js"></script>
+</body>
+</html>
+

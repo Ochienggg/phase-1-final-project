@@ -1,0 +1,180 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('images/hero.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 20px;
+    text-align: center;
+    color: darkgreen;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.hero button {
+    padding: 12px 30px;
+    font-size: 1.1em;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hero button:hover {
+    background-color: #45a049;
+}
+
+/* Achievements Section */
+.achievements {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.achievements h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.achievements-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.achievement {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 30%;
+}
+
+.achievement h3 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+/* Places Section */
+.places {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.places h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.places-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.place {
+    width: 30%;
+    text-align: center;
+}
+
+.place img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.place h3 {
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+.place p {
+    font-size: 1.1em;
+}
+
+/* Best Places Traveled Table */
+.best-places table {
+    width: 100%;
+    margin-top: 40px;
+    border-collapse: collapse;
+}
+
+.best-places th, .best-places td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.best-places th {
+    background-color: #f2f2f2;
+}
+
+/* Airbnb Listings Section */
+#airbnbs {
+    margin-top: 50px;
+}
+
+.form-container {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+input {
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 12px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.table-container {
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
