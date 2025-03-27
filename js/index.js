@@ -11,15 +11,15 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Initial data for Places and Best Places Traveled
     const placesToVisit = [
-        { image: "images/miami.jpg", name: "Miami Beach", price: 200, description: "Enjoy the beautiful sandy beaches and vibrant nightlife." },
-        { image: "images/santamonica.jpg", name: "Santa Monica", price: 150, description: "Relax on the iconic beaches of Santa Monica." },
-        { image: "images/hawaii.jpg", name: "Hawaii", price: 350, description: "Discover the islands of Hawaii with incredible beaches." }
+        { image: "images/miamibeach2.jpg", name: "Miami Beach", price: 200, description: "Enjoy the beautiful sandy beaches and vibrant nightlife." },
+        { image: "images/santa monica 2.jpg", name: "Santa Monica", price: 150, description: "Relax on the iconic beaches of Santa Monica." },
+        { image: "images/hawaii2.jpg", name: "Hawaii", price: 350, description: "Discover the islands of Hawaii with incredible beaches." }
     ];
 
     const bestPlaces = [
-        { location: "Maldives", highlights: "Private overwater bungalows, crystal-clear waters", rating: "5/5" },
-        { location: "Bora Bora", highlights: "Luxury resorts, turquoise lagoons", rating: "4.8/5" },
-        { location: "French Riviera", highlights: "Exclusive beaches, world-class dining", rating: "4.9/5" }
+        { location: "Nyali", highlights: "Many fancy restaurants, good boat views", rating: "7/10" },
+        { location: "Malindi", highlights: "Beautiful, Most peaceful holiday relaxations", rating: "8/10" },
+        { location: "Diani Beach", highlights: "Spectacular beaches, Descent Dinners", rating: "9/10" }
     ];
 
     // Function to display Places We Charge People to Visit
